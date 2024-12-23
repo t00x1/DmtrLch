@@ -1,5 +1,5 @@
 
-Добро пожаловать в **Random bet**!
+Добро пожаловать в **Randomizer Bet**!
 
 ## Структура проекта
 
@@ -21,6 +21,8 @@
 ### Зайти на сайт вы можете по ссылке
 
 https://emelina-lqni.vercel.app/auth
+![image](https://github.com/user-attachments/assets/433de0d9-d058-4efc-a809-8efd03d51905)
+
 
 
 
