@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE48258-4580-44FC-8F8A-40F5955E2880}|Infrastructure\\Infrastructure.csproj|c:\\users\\sasha\\desktop\\casinich\\emelina\\casino\\infrastructure\\jwt\\jwtgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE48258-4580-44FC-8F8A-40F5955E2880}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\jwt\\jwtgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7EEC3F-A9CC-4398-813D-CB159FDC15B5}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\sasha\\desktop\\casinich\\emelina\\casino\\businesslogic\\services\\userloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7EEC3F-A9CC-4398-813D-CB159FDC15B5}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\userloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7EEC3F-A9CC-4398-813D-CB159FDC15B5}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\sasha\\desktop\\casinich\\emelina\\casino\\businesslogic\\services\\userregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7EEC3F-A9CC-4398-813D-CB159FDC15B5}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\userregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBD55AC-B291-4040-BAAA-83B9BE972A17}|Domain\\Domain.csproj|c:\\users\\sasha\\desktop\\casinich\\emelina\\casino\\domain\\common\\reflexion\\validation\\basevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BBD55AC-B291-4040-BAAA-83B9BE972A17}|Domain\\Domain.csproj|solutionrelative:domain\\common\\reflexion\\validation\\basevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B213D7-A526-4B8F-AF7B-6B4EDA5EBC73}|CasinoAPI\\Casino.csproj|c:\\users\\sasha\\desktop\\casinich\\emelina\\casino\\casinoapi\\middleware\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B213D7-A526-4B8F-AF7B-6B4EDA5EBC73}|CasinoAPI\\Casino.csproj|solutionrelative:casinoapi\\middleware\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E78C0CDB-939B-494F-9ECD-7294EB5C2DC6}|DataAccess\\DataAccess.csproj|c:\\users\\sasha\\desktop\\casinich\\emelina\\casino\\dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E78C0CDB-939B-494F-9ECD-7294EB5C2DC6}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseValidation.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\Domain\\Common\\Reflexion\\Validation\\BaseValidation.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\Reflexion\\Validation\\BaseValidation.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\Domain\\Common\\Reflexion\\Validation\\BaseValidation.cs",
+              "RelativeToolTip": "Domain\\Common\\Reflexion\\Validation\\BaseValidation.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:12:43.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Authorization.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\CasinoAPI\\MiddleWare\\Authorization.cs",
+              "RelativeDocumentMoniker": "CasinoAPI\\MiddleWare\\Authorization.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\CasinoAPI\\MiddleWare\\Authorization.cs",
+              "RelativeToolTip": "CasinoAPI\\MiddleWare\\Authorization.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:12:42.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRegisterService.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\BusinessLogic\\Services\\UserRegisterService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Services\\UserRegisterService.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\BusinessLogic\\Services\\UserRegisterService.cs",
+              "RelativeToolTip": "BusinessLogic\\Services\\UserRegisterService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADwvzwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:12:14.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserLoginService.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\BusinessLogic\\Services\\UserLoginService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Services\\UserLoginService.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\BusinessLogic\\Services\\UserLoginService.cs",
+              "RelativeToolTip": "BusinessLogic\\Services\\UserLoginService.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAqwEoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:11:56.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtGeneral.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\Infrastructure\\JWT\\JwtGeneral.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\JWT\\JwtGeneral.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\Infrastructure\\JWT\\JwtGeneral.cs",
+              "RelativeToolTip": "Infrastructure\\JWT\\JwtGeneral.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:11:51.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\Casinich\\Emelina\\Casino\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T19:02:08.867Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

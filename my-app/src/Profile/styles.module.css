@@ -1,0 +1,163 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black-color);
+    min-height: 100vh;
+    height: auto;
+  }
+  .textsContainer
+  {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+
+  }
+  .block
+  {
+    background-color: var(--dark-background);
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 30px;
+  }
+  .title {
+    font-size: 4em;
+    font-family: inherit;
+    margin: 0px;
+    padding: 0px;
+    color: var(--light-white-color);
+    text-align: center;
+    font-weight: 100;
+  }
+  .Under {
+    font-size: 2em;
+    font-family: inherit;
+    color: gray;
+    text-align: center;
+    font-weight: 100;
+
+
+  }
+  @keyframes neon-glow {
+    0%, 100% {
+      box-shadow: 0 0 5px var(--neon-purple), 0 0 10px var(--dark-purple), 0 0 20px var(--dark-blue), 0 0 40px var(--neon-dark);
+    }
+    25% {
+      box-shadow: 0 0 15px var(--neon-purple), 0 0 25px var(--dark-purple), 0 0 35px var(--dark-blue), 0 0 50px var(--neon-dark);
+    }
+    50% {
+      box-shadow: 0 0 25px var(--neon-purple), 0 0 35px var(--dark-purple), 0 0 45px var(--dark-blue), 0 0 60px var(--neon-dark);
+    }
+    75% {
+      box-shadow: 0 0 15px var(--neon-purple), 0 0 25px var(--dark-purple), 0 0 35px var(--dark-blue), 0 0 50px var(--neon-dark);
+    }
+  }
+  
+  .Picture {
+    width: 120px; /* Ширина */
+    height: 120px; /* Высота */
+    object-fit: cover;
+    border-radius: 50%; /* Делает элемент круглым */
+
+}
+
+
+  .error{
+    font-size: 4em;
+    font-family: inherit;
+    margin: 0px;
+    padding: 0px;
+    color:red;
+    font-weight: 100;
+  }
+  .Fallback
+  {
+    height: auto;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    font-size: 6em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+  }
+  .SubContainer {
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.3); /* Light white border */
+    animation: neon-glow 20s infinite ease-in-out; /* Glowing animation */
+    transition: box-shadow 1s ease, transform 0.5s ease; /* Smooth transition */
+    overflow: hidden;
+    padding: 30px;
+  }
+  
+  /* Form styles */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+    width: 100%;
+    padding: 2.5rem;
+    background-color: var(--dark-background);
+  }
+  .Column
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .label {
+    font-family: inherit;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 0.1rem;
+    color: var(--light-white-color);
+  }
+  .input {
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    
+    flex-grow: 1;
+    font-size:1.5rem;;
+    background-color: var(--dark-input);
+    color: var(--white-color);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  .inputGroupSecond {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .submitButton {
+    padding: 1rem;
+    color: var(--light-white-color);
+    background-color: var(--neon-purple);
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submitButton:hover {
+    background-color: #2a0030;
+    transform: translateY(-2px);
+  }
+  
+  .submitButton:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }

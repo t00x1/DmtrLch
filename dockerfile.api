@@ -1,0 +1,24 @@
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER app
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["./Casino/BusinessLogic/BusinessLogic.csproj", "/Casino/BusinessLogic/"]
+COPY ["./Casino/Domain/Domain.csproj", "/Casino/Domain/"]
+COPY ["./Casino/Infrastructure/Infrastructure.csproj", "/Casino/Infrastructure/"]
+COPY ["./Casino/DataAccess/DataAccess.csproj", "/Casino/DataAccess/"]
+COPY ["./Casino/CasinoAPI/Casino.csproj", "/Casino/CasinoAPI/"]
+COPY ./Casino/Domain/Letter.html ./Casino/Domain/
+RUN dotnet restore "/Casino/CasinoAPI/Casino.csproj"
+COPY . .
+WORKDIR "/src/Casino/CasinoAPI"
+RUN dotnet build "Casino.csproj" -c $BUILD_CONFIGURATION -o /build
+FROM build AS publish
+RUN dotnet publish "Casino.csproj" -c $BUILD_CONFIGURATION -o /publish /p:UseAppHost=false
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /publish .
+ENTRYPOINT ["dotnet", "Casino.dll"]

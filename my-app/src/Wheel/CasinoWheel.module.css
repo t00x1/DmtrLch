@@ -1,0 +1,369 @@
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black-color);
+  min-height: 100vh;
+  height: auto;
+}
+.SubContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Light white border */
+  animation: neon-glow 20s infinite ease-in-out; /* Glowing animation */
+  transition: box-shadow 1s ease, transform 0.5s ease; /* Smooth transition */
+  overflow: hidden;
+  gap: 20px;
+  padding: 30px;
+}
+.lineBetHeader
+{
+  padding: 0.75rem;
+  border-radius: 15px 15px 0px 0px;
+}
+.textsContainer
+{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+
+}
+.block
+{
+  
+  background-color: var(--dark-background);
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  
+  border-radius: 30px;
+}
+.title {
+  font-size: 4em;
+  font-family: inherit;
+  margin: 0px;
+  padding: 0px;
+  color: var(--light-white-color);
+  text-align: center;
+  font-weight: 100;
+}
+.Under {
+  font-size: 2em;
+  font-family: inherit;
+  color: gray;
+  text-align: center;
+  font-weight: 100;
+
+
+}
+@keyframes neon-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px var(--neon-purple), 0 0 10px var(--dark-purple), 0 0 20px var(--dark-blue), 0 0 40px var(--neon-dark);
+  }
+  25% {
+    box-shadow: 0 0 15px var(--neon-purple), 0 0 25px var(--dark-purple), 0 0 35px var(--dark-blue), 0 0 50px var(--neon-dark);
+  }
+  50% {
+    box-shadow: 0 0 25px var(--neon-purple), 0 0 35px var(--dark-purple), 0 0 45px var(--dark-blue), 0 0 60px var(--neon-dark);
+  }
+  75% {
+    box-shadow: 0 0 15px var(--neon-purple), 0 0 25px var(--dark-purple), 0 0 35px var(--dark-blue), 0 0 50px var(--neon-dark);
+  }
+}
+
+.Picture {
+  width: 120px; /* Ширина */
+  height: 120px; /* Высота */
+  object-fit: cover;
+  border-radius: 50%; /* Делает элемент круглым */
+
+}
+
+
+.error{
+  font-size: 4em;
+  font-family: inherit;
+  margin: 0px;
+  padding: 0px;
+  color:red;
+  font-weight: 100;
+}
+
+.userline{
+  color: #ffffff;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: auto;
+  justify-content: space-between;
+}
+.UsersBets
+{
+  display: flex;
+  flex-direction: row;
+  
+}
+/* .Fallback
+{
+  height: auto;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  font-size: 6em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  
+  } */
+  
+  /* Form styles */
+  .LineContaienr {
+    display: flex;
+  flex-direction: row;
+  gap: 1.0rem;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2.5rem;
+  border-radius: 15px;
+  background-color: var(--dark-background);
+}
+.line
+{
+  border-radius: 15px 15px 0px 0px; 
+
+  /* ЭТО УБРАТЬ ПОТОМ а то это типо универсальной штуки */
+  max-width: calc(100% / 3);
+  flex-grow: 1;
+  background-color: rgb(37,37,37);
+}
+.Column
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.Wheel
+{
+  /* background-color: rgb(32, 32, 32); */
+}
+.Panel {
+  background-color: rgb(26, 26, 26);
+  padding: 30px;
+  justify-content: center;
+  align-content: space-between;
+  display: flex;
+
+  flex-direction: column;
+}
+.WheelControl
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  /* Добавляем это свойство для вертикального расположения */
+  gap: 1.0rem;
+
+}
+.label
+{
+  width: 100%;
+  color: #ffff;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  
+  
+}
+.sub
+{
+  color: #ffffff;
+}
+.input {
+  
+  padding: 10px;
+  width: 100%;
+  font-size: 0.8rem;
+  border: 1px solid #181818;
+  border-radius: 6px;
+  background-color: rgb(37,37,37);
+  color: #ede5d6;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.input:disabled {
+  background-color: #3b3b3b;/* Более тёмный фон для отключённого состояния */
+  color: #ffffff; /* Бледный цвет текста */
+  border-color: #ff5858; /* Цвет границы для отключённого состояния */
+  cursor: not-allowed; /* Указывает, что действие невозможно */
+
+}
+.title {
+  font-size: 3em;
+  font-family: inherit;
+  margin: 0px;
+  padding: 0px;
+  color: var(--light-white-color);
+  text-align: center;
+  font-weight: 100;
+}
+.Subtitle {
+  font-size: 2em;
+  font-family: inherit;
+  margin: 0px;
+  padding: 0px;
+  color: var(--light-white-color);
+  text-align: center;
+  font-weight: 100;
+}
+.SendBet
+{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 130px;
+  transition: 300ms;
+  cursor: pointer;
+}
+.SendBet:disabled {
+  background-color: #ff4444; /* Серый цвет для отключённой кнопки */
+  cursor: not-allowed; /* Указывает, что действие недоступно */
+  opacity: 0.6; /* Делает элемент менее заметным */
+  color: #ffffff;
+}
+.SendBet:hover
+{
+  background-color: #a1a1a1;
+  transition: 300ms;
+}
+.ButtonsContainer
+{
+  display: flex;
+  flex-direction: row;
+}
+.ButtonRed
+{
+  padding: 5px 30px;
+  border-radius: 30px 0px 0px 30px;
+  border: none;
+  outline: none;
+  color: #ffff;
+  background-color: #521861;
+  
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+  /* Убираем изменение стилей при нажатии */
+  &:active {
+    
+  }
+}
+.ButtonGreen
+{
+  background-color: rgb(255, 255, 255);
+  padding: 5px 30px;
+  color: black;
+  outline: none;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+  
+  /* Убираем изменение стилей при нажатии */
+  &:active {
+    
+    
+  }
+}
+.ButtonBlack
+{
+  background-color: black;
+  padding: 5px 30px;
+  color: #ffff;
+  border-radius: 0px 30px 30px 0px;
+  outline: none;
+  border: none;
+  
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+  /* Убираем изменение стилей при нажатии */
+  &:active {
+    
+    
+  }
+}
+@media (max-width: 576px) {
+  .LineContaienr
+  {
+    flex-direction: column;
+  }
+  .SubContainer
+  {
+    padding: 0px;
+  }
+  .line{max-width: 100%;}
+}
+@media (min-width: 576px) and (max-width: 1200px) {
+  .LineContaienr
+  {
+    flex-direction: column;
+  }
+  .line{max-width: 100%;}
+  .SubContainer
+  {
+    padding: 0px;
+  }
+ @media (max-width: 576px) {
+   .LineContaienr
+   {
+     flex-direction: column;
+    }
+    .line{max-width: 100%;}
+    .SubContainer
+  {
+    padding: 0px;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .LineContaienr
+  {
+    flex-direction: column;
+  }
+  .line{max-width: 100%;}
+ .SubContainer
+ {
+   padding: 0px;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .LineContaienr
+  {
+    flex-direction: column;
+  }.SubContainer
+  {
+    padding: 0px;
+  }
+  .line{max-width: 100%;}
+}
+}
